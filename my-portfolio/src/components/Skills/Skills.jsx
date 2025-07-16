@@ -5,7 +5,7 @@ import "./Skills.scss";
 
 function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2 className="skills-title">My Skills</h2>
       <p className="skills-description">
         Technologies and tools I work with to bring ideas to life.
@@ -18,8 +18,8 @@ function Skills() {
               alt={`${skill.name} icon`}
               className="skills-item-icon"
             />
-              <h3 className="skills-item-title">{skill.name}</h3>
-              <p className="skills-item-description">{skill.description}</p>
+            <h3 className="skills-item-title">{skill.name}</h3>
+            <p className="skills-item-description">{skill.description}</p>
           </div>
         ))}
       </div>

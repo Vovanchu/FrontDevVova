@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import "./Header.scss";
-import Download from "../../images/icons/download.svg";
 
 function Header({
   title = "My Portfolio",
@@ -15,6 +14,20 @@ function Header({
     { name: "Contact", href: "#contact" },
   ],
 }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [menuOpen]);
+
   return (
     <header className="header">
       <h1>
@@ -23,11 +36,25 @@ function Header({
         </a>
       </h1>
 
-      <nav className="header-nav">
+      <button
+        className={`header-burger ${menuOpen ? "active" : ""}`}
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle menu"
+      >
+        <span className="header-burger-line header-burger-top"></span>
+        <span className="header-burger-line header-burger-middle"></span>
+        <span className="header-burger-line header-burger-bottom"></span>
+      </button>
+
+      <nav className={`header-nav ${menuOpen ? "active" : ""}`}>
         <ul className="header-nav-list">
           {links.map((link) => (
             <li className="header-nav-list-item" key={link.name}>
-              <a href={link.href} className="header-nav-list-item-link">
+              <a
+                href={link.href}
+                className="header-nav-list-item-link"
+                onClick={() => setMenuOpen(false)} // закриваємо меню по кліку
+              >
                 {link.name}
               </a>
             </li>
@@ -37,15 +64,11 @@ function Header({
 
       <a
         href="/CV_VolodymyrNechai_FullStackDeveloper.pdf"
-        download
+        target="_blank"
+        rel="noopener noreferrer"
         className="header-dowload-button"
       >
-        <img
-          src={Download}
-          alt="Download icon"
-          className="header-dowload-button-icon"
-        />
-        Download Resume
+        View Resume
       </a>
     </header>
   );

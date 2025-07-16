@@ -1,5 +1,6 @@
+@use "../../styles/mixins" as *;
+
 .about-me {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +15,14 @@
     color: #f4f4f6ff;
 
     margin-bottom: 0;
+
+    @include mobile-small {
+      font-size: 1.9rem;
+    }
+
+    @include mobile-medium {
+      font-size: 2.3rem;
+    }
   }
 
   &-subtitle {
@@ -21,6 +30,15 @@
     font-size: 1.5rem;
     font-weight: 400;
     color: #8c8d8bff;
+    text-align: center;
+
+    @include mobile-small {
+      font-size: 1rem;
+    }
+
+    @include mobile-medium {
+      font-size: 1.3rem;
+    }
   }
 
   &-content {
@@ -32,21 +50,47 @@
     text-align: center;
     margin-top: 20px;
 
+    @include tablet {
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    }
+
     &-texts,
     &-image {
       flex: 1;
       min-width: 500px;
+
+      @include mobile-small {
+        min-width: 300px;
+      }
+
+      @include mobile-medium {
+        min-width: 400px;
+      }
+
+      @include tablet {
+        min-width: 400px;
+      }
     }
 
     &-texts {
-      margin-right: 50px;
+      margin-right: 0;
+      margin-bottom: 20px;
+      padding: 0 20px;
+
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
       text-align: left;
-      padding: 20px;
+
       border-radius: 16px;
+
+      @include tablet {
+        align-items: left;
+        text-align: left;
+      }
     }
 
     p {
@@ -56,17 +100,77 @@
       font-weight: 400;
       color: #8c8d8bff;
       margin-bottom: 20px;
+      text-align: left;
+
+      @include mobile-small {
+        font-size: 1rem;
+        line-height: 1.4;
+      }
+
+      @include mobile-medium {
+        font-size: 1rem;
+        padding: 0 15px;
+      }
+
+      @include tablet {
+        font-size: 1.1rem;
+      }
+
+      @include laptop-small {
+        font-size: 1.2rem;
+      }
+
+      @include laptop {
+        font-size: 1.2rem;
+      }
     }
 
     &-image {
       width: 100%;
-      max-width: 100px;
+      max-width: 300px;
       height: auto;
       border-radius: 16px;
       object-fit: cover;
-      transition: transform 0.3s ease;
-      &:hover {
-        transform: scale(1.05);
+
+      margin: 0 auto;
+
+      @include mobile-small {
+        max-width: 200px;
+      }
+
+      @include mobile-medium {
+        max-width: 250px;
+      }
+
+      @include tablet {
+        max-width: 400px;
+        flex: 1;
+      }
+
+      @include laptop-small {
+        max-width: 500px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      @include laptop {
+        max-width: 600px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      @include desktop-large {
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
       }
     }
   }
