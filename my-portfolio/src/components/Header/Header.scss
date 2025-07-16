@@ -1,0 +1,139 @@
+.header {
+  /* Box model */
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  border-radius: 0;
+
+  /* Display & positioning */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  /* Visual */
+  background: #000c;
+  text-decoration: none;
+
+  &-link {
+    /* Typography */
+    font-family: Inter, sans-serif;
+    font-size: 3rem;
+    line-height: 3;
+    font-weight: 600;
+    color: #f4f4f6ff;
+
+    /* Decoration */
+    text-decoration: none;
+  }
+
+  &-nav {
+    /* Display & positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &-list {
+      /* Display & positioning */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      /* Box model */
+      margin: 0;
+      padding: 0;
+
+      /* Decoration */
+      list-style: none;
+
+      &-item {
+        /* Box model */
+        margin: 0 20px 0 0;
+
+        &-link {
+          /* Positioning */
+          position: relative;
+
+          /* Typography */
+          font-family: Inter, sans-serif;
+          font-size: 1.2rem;
+          line-height: 1.5;
+          font-weight: 500;
+          color: #f4f4f6ff;
+
+          /* Decoration */
+          text-decoration: none;
+
+          /* Transition */
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: #636ae8ff;
+          }
+
+          &::before {
+            /* Positioning */
+            position: absolute;
+            bottom: -0.4rem;
+            left: 0;
+
+            /* Box model */
+            width: 0;
+            height: 1.5px;
+
+            /* Visual */
+            background: #636ae8ff;
+
+            /* Content */
+            content: "";
+
+            /* Transition */
+            transition: width 0.3s ease;
+          }
+
+          &:hover::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &-dowload-button {
+    /* Box model */
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+
+    /* Display & positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    /* Typography */
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-decoration: none;
+
+    /* Visual */
+    color: #fff;
+    background-color: #636ae8ff;
+    transition: all 0.3s ease;
+
+    &-icon {
+      /* Box model */
+      width: 24px;
+      height: 24px;
+    }
+
+    &:hover {
+      background-color: rgb(47, 57, 160);
+    }
+  }
+}

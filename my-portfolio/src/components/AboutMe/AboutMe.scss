@@ -1,0 +1,73 @@
+.about-me {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+
+  &-title {
+    font-family: Inter, sans-serif;
+    font-size: 3rem;
+    line-height: 48px;
+    font-weight: 700;
+    color: #f4f4f6ff;
+
+    margin-bottom: 0;
+  }
+
+  &-subtitle {
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #8c8d8bff;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+
+    &-texts,
+    &-image {
+      flex: 1;
+      min-width: 500px;
+    }
+
+    &-texts {
+      margin-right: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
+      padding: 20px;
+      border-radius: 16px;
+    }
+
+    p {
+      font-family: Inter, sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #8c8d8bff;
+      margin-bottom: 20px;
+    }
+
+    &-image {
+      width: 100%;
+      max-width: 100px;
+      height: auto;
+      border-radius: 16px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

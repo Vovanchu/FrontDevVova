@@ -1,0 +1,87 @@
+.education-section {
+  padding: 4rem 2rem;
+  background-color: #0e0e0e;
+  color: #fff;
+  text-align: center;
+
+  .education-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .education-subtitle {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 2.5rem;
+  }
+
+  .education-list {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .education-item {
+    background-color: #1c1c1c;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+  }
+
+  .education-item-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .education-status {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    &.completed {
+      background-color: #2e7d32;
+      color: #fff;
+    }
+
+    &.ongoing {
+      background-color: #f9a825;
+      color: #000;
+    }
+  }
+
+  .education-institution {
+    font-weight: 500;
+    color: #ccc;
+    margin-top: 0.4rem;
+  }
+
+  .education-period {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.7rem;
+  }
+
+  .education-description {
+    font-size: 0.95rem;
+    color: #aaa;
+    line-height: 1.5;
+  }
+}
