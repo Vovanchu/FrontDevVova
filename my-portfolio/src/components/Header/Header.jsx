@@ -5,13 +5,10 @@ import "./Header.scss";
 function Header({
   title = "My Portfolio",
   links = [
-    { name: "Home", href: "#" },
     { name: "About Me", href: "#about-me" },
     { name: "Skills", href: "#skills" },
     { name: "Education", href: "#education" },
-    { name: "Achievements", href: "#achievements" },
     { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
   ],
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,15 +58,6 @@ function Header({
           ))}
         </ul>
       </nav>
-
-      <a
-        href="/CV_VolodymyrNechai_FullStackDeveloper.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="header-dowload-button"
-      >
-        View Resume
-      </a>
     </header>
   );
 }

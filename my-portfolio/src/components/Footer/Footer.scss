@@ -1,0 +1,197 @@
+@use "../../styles/mixins" as *;
+
+.footer {
+  padding: 2rem;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+
+  .footer-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    a {
+      font-size: 2rem;
+      color: #777;
+    }
+  }
+
+  @include mobile-small {
+    padding: 1rem;
+    font-size: 1rem;
+
+    .footer-icons {
+      gap: 1rem;
+
+      a {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @include mobile-medium {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+
+    .footer-icons {
+      gap: 1.5rem;
+
+      a {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  @include tablet {
+    font-size: 1.3rem;
+
+    .footer-icons {
+      gap: 1.8rem;
+
+      a {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @include laptop-small {
+    font-size: 1.4rem;
+
+    .footer-icons {
+      gap: 2rem;
+
+      a {
+        font-size: 2.1rem;
+
+        transition: color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        svg {
+          transition: color 0.3s ease;
+        }
+
+        &[aria-label="Email"]:hover svg {
+          color: #c23a2b;
+        }
+
+        &[aria-label="Telegram"]:hover svg {
+          color: #0088cc;
+        }
+
+        &[aria-label="Instagram"]:hover svg {
+          color: #e4405f;
+        }
+
+        &[aria-label="GitHub"]:hover svg {
+          color: #f5f5f5;
+        }
+
+        &[aria-label="LinkedIn"]:hover svg {
+          color: #0077b5;
+        }
+
+        &[aria-label="CV"]:hover svg {
+          color: #4caf50;
+        }
+      }
+    }
+  }
+
+  @include laptop {
+    font-size: 1.5rem;
+
+    .footer-icons {
+      gap: 2.2rem;
+
+      a {
+        font-size: 2.2rem;
+
+        transition: color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        svg {
+          transition: color 0.3s ease;
+        }
+
+        &[aria-label="Email"]:hover svg {
+          color: #c23a2b;
+        }
+
+        &[aria-label="Telegram"]:hover svg {
+          color: #0088cc;
+        }
+
+        &[aria-label="Instagram"]:hover svg {
+          color: #e4405f;
+        }
+
+        &[aria-label="GitHub"]:hover svg {
+          color: #f5f5f5;
+        }
+
+        &[aria-label="LinkedIn"]:hover svg {
+          color: #0077b5;
+        }
+
+        &[aria-label="CV"]:hover svg {
+          color: #4caf50;
+        }
+      }
+    }
+  }
+
+  @include desktop-large {
+    font-size: 1.6rem;
+
+    .footer-icons {
+      gap: 2.5rem;
+
+      a {
+        font-size: 2.4rem;
+
+        transition: color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        svg {
+          transition: color 0.3s ease;
+        }
+
+        &[aria-label="Email"]:hover svg {
+          color: #c23a2b;
+        }
+
+        &[aria-label="Telegram"]:hover svg {
+          color: #0088cc;
+        }
+
+        &[aria-label="Instagram"]:hover svg {
+          color: #e4405f;
+        }
+
+        &[aria-label="GitHub"]:hover svg {
+          color: #f5f5f5;
+        }
+
+        &[aria-label="LinkedIn"]:hover svg {
+          color: #0077b5;
+        }
+
+        &[aria-label="CV"]:hover svg {
+          color: #4caf50;
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ import "./Projects.scss";
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h2 className="projects-title">Featured Projects</h2>
       <p className="projects-subtitle">
         A selection of my recent work showcasing diverse skills and impactful

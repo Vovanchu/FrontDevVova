@@ -71,13 +71,6 @@ const skillsData = [
       "Building and consuming RESTful APIs for client-server communication.",
     icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-api-computer-programming-flaticons-lineal-color-flat-icons.png",
   },
-  {
-    id: 12,
-    name: "Full Stack Projects",
-    description:
-      "Practical experience in building full-featured apps with both frontend and backend components.",
-    icon: "https://img.icons8.com/external-flat-juicy-fish/60/000000/external-full-stack-coding-and-development-flat-flat-juicy-fish.png",
-  },
 ];
 
 export default skillsData;

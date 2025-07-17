@@ -8,12 +8,12 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
-
       <main>
         <HeroSection />
         <AboutMe />
@@ -21,6 +21,7 @@ function App() {
         <Education />
         <Projects />
       </main>
+      <Footer />
     </div>
   );
 }
