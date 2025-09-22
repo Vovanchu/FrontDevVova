@@ -5,10 +5,10 @@ import "./Header.scss";
 function Header({
   title = "My Portfolio",
   links = [
-    { name: "About Me", href: "#about-me" },
-    { name: "Skills", href: "#skills" },
-    { name: "Education", href: "#education" },
-    { name: "Projects", href: "#projects" },
+    { name: "About Me", href: "about-me" },
+    { name: "Skills", href: "skills" },
+    { name: "Education", href: "education" },
+    { name: "Projects", href: "projects" },
   ],
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
