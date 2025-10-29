@@ -1,8 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "FrontDevVova",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vovanchu.github.io/My-Portfolio",
+  "homepage": "https://Vovanchu.github.io/FrontDevVova",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
