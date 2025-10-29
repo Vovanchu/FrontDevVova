@@ -1,5 +1,5 @@
 import englishSchool from "../../images/openGraph/englishSchool.png";
-import myBike from "../../images/openGraph/myBike.png";
+import myBike from "../../images/openGraph/MYBIKE.png";
 import welltrack from "../../images/openGraph/welltrack.png";
 
 const projectsData = [
