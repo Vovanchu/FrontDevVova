@@ -3,7 +3,7 @@ const educationData = [
     id: 1,
     type: "KAI",
     title: "Bachelor’s Degree in Computer Engineering",
-    institution: "Your University Name",
+    institution: "National Aviation University 'Kyiv Aviation Institute' (KAI)",
     period: "2021 — Present",
     description:
       "Studying core subjects such as computer systems, algorithms, data structures, software engineering, and databases.",

@@ -1,6 +1,7 @@
 import englishSchool from "../../images/openGraph/englishSchool.png";
 import myBike from "../../images/openGraph/MYBIKE.png";
 import welltrack from "../../images/openGraph/welltrack.png";
+import TradeBlade from "../../images/openGraph/TradeBlade.png";
 
 const projectsData = [
   {
@@ -35,6 +36,23 @@ const projectsData = [
       "User Authentication",
       "Health Tracker",
       "Responsive",
+    ],
+  },
+  {
+    id: 4,
+    title: "TradeBlade",
+    image: TradeBlade,
+    description:
+      "The site offers automatic and semi-automatic copying of professional traders' deals. Users can connect to a team of traders and profit from their deals on the cryptocurrency market (spot and futures) without having extensive trading experience.",
+    link: "https://vovanchu.github.io/testTask/#faq",
+    tags: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "Responsive",
+      "Landing Page",
+      "GitHub Pages",
+      "Figma",
     ],
   },
 ];

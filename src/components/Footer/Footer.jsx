@@ -27,7 +27,7 @@ function Footer() {
           <FaEnvelope />
         </a>
         <a
-          href="https://t.me/your_daaddy"
+          href="https://t.me/front_end_vova"
           target="_blank"
           rel="noreferrer"
           aria-label="Telegram"

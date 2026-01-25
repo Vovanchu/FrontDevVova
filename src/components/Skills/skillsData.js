@@ -69,7 +69,28 @@ const skillsData = [
     name: "REST API",
     description:
       "Building and consuming RESTful APIs for client-server communication.",
-    icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-api-computer-programming-flaticons-lineal-color-flat-icons.png",
+    icon: "https://img.icons8.com/ios-filled/64/000000/api-settings.png",
+  },
+  {
+    id: 12,
+    name: "Vite",
+    description:
+      "Fast and modern frontend build tool for React, Vue, and other frameworks.",
+    icon: "https://img.icons8.com/color/64/000000/vite.png",
+  },
+  {
+    id: 13,
+    name: "Node.js",
+    description:
+      "JavaScript runtime for building scalable server-side applications.",
+    icon: "https://img.icons8.com/color/64/000000/nodejs.png",
+  },
+  {
+    id: 14,
+    name: "Vue.js",
+    description:
+      "Progressive JavaScript framework for building user interfaces and single-page applications.",
+    icon: "https://img.icons8.com/color/64/000000/vue-js.png",
   },
 ];
 
