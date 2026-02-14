@@ -5,10 +5,10 @@ import "./Header.scss";
 function Header({
   title = "My Portfolio",
   links = [
-    { name: "About Me", href: "about-me" },
-    { name: "Skills", href: "skills" },
-    { name: "Education", href: "education" },
-    { name: "Projects", href: "projects" },
+    { name: "About Me", href: "#about-me" },
+    { name: "Skills", href: "#skills" },
+    { name: "Education", href: "#education" },
+    { name: "Projects", href: "#projects" },
   ],
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -50,7 +50,7 @@ function Header({
               <a
                 href={link.href}
                 className="header-nav-list-item-link"
-                onClick={() => setMenuOpen(false)} // закриваємо меню по кліку
+                onClick={() => setMenuOpen(false)}
               >
                 {link.name}
               </a>
@@ -68,7 +68,7 @@ Header.propTypes = {
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       href: PropTypes.string.isRequired,
-    })
+    }),
   ),
 };
 

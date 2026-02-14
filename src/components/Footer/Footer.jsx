@@ -16,7 +16,7 @@ import {
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2025 Володимир Нечай. Всі права захищено.</p>
+      <p>© 2025 Volodymyr Nechai. All rights reserved.</p>
       <div className="footer-icons">
         <a
           href="mailto:nechayvova2005@gmail.com"
