@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FrontDevVova/static/css/main.221abc58.css",
-    "main.js": "/FrontDevVova/static/js/main.d5fd33ce.js",
+    "main.css": "/FrontDevVova/static/css/main.96506985.css",
+    "main.js": "/FrontDevVova/static/js/main.a83c2adf.js",
     "static/media/my_photo.jpg": "/FrontDevVova/static/media/my_photo.459361c8c2404315fc42.jpg",
     "static/media/welltrack.png": "/FrontDevVova/static/media/welltrack.fa75748c1580477dbb87.png",
     "static/media/TradeBlade.png": "/FrontDevVova/static/media/TradeBlade.9e91865983c7ada6f5fd.png",
@@ -11,11 +11,11 @@
     "static/media/Selection.png": "/FrontDevVova/static/media/Selection.8110d489c69a39bf6bc9.png",
     "index.html": "/FrontDevVova/index.html",
     "static/media/arrow-right.svg": "/FrontDevVova/static/media/arrow-right.597cae7a26a8209ff8456a807096a200.svg",
-    "main.221abc58.css.map": "/FrontDevVova/static/css/main.221abc58.css.map",
-    "main.d5fd33ce.js.map": "/FrontDevVova/static/js/main.d5fd33ce.js.map"
+    "main.96506985.css.map": "/FrontDevVova/static/css/main.96506985.css.map",
+    "main.a83c2adf.js.map": "/FrontDevVova/static/js/main.a83c2adf.js.map"
   },
   "entrypoints": [
-    "static/css/main.221abc58.css",
-    "static/js/main.d5fd33ce.js"
+    "static/css/main.96506985.css",
+    "static/js/main.a83c2adf.js"
   ]
 }
