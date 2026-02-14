@@ -1,30 +1,33 @@
 # FrontDevVova
 
-Цей проєкт створений за допомогою [Create React App](https://github.com/facebook/create-react-app).
+This project was created using [Create React App](https://github.com/facebook/create-react-app).
 
-## Демо
+## Demo
 
-Переглянути проєкт можна тут: [https://vovanchu.github.io/FrontDevVova](https://vovanchu.github.io/FrontDevVova)
+You can view the live project here:  
+https://vovanchu.github.io/FrontDevVova
 
-## Скрипти
+## Available Scripts
 
-В корені проєкту доступні такі команди:
+In the project root directory, you can run the following commands:
 
 ### `npm start`
 
-Запускає додаток у режимі розробки.\
-Відкрити [http://localhost:3000](http://localhost:3000) у браузері.
+Runs the app in development mode.  
+Open http://localhost:3000 in your browser to view it.
+
+The page will reload automatically when you make changes.
 
 ### `npm run build`
 
-Створює production-збірку у папці `build`.\
-Додаток готовий до розгортання.
+Builds the app for production to the `build` folder.  
+The app is optimized and ready for deployment.
 
 ### `npm test`
 
-Запускає тестовий раннер у інтерактивному режимі.
+Launches the test runner in interactive watch mode.
 
-## Документація
+## Documentation
 
-- [Create React App](https://facebook.github.io/create-react-app/docs/getting-started)  
-- [React](https://reactjs.org/)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)
