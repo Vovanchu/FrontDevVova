@@ -13,50 +13,57 @@ function AboutMe() {
       <div className="about-me-content">
         <div className="about-me-content-texts">
           <p className="about-me-content-text">
-            My name is Nechai Volodymyr Andriyovych, and I am a passionate and
-            aspiring Full Stack Developer with a strong foundation in both
-            theory and practice. Currently, I am pursuing my degree in Computer
-            Engineering at university, where I am constantly deepening my
-            understanding of how technology shapes the world around us. My
-            journey into software development began with a simple curiosity
-            about how things work behind the screen — and quickly evolved into a
-            deep commitment to creating meaningful, user-centric digital
-            experiences.
+            My name is Nechai Volodymyr Andriyovych, and I am a motivated
+            Frontend Developer with strong theoretical knowledge and practical
+            experience in building modern web applications. I work confidently
+            with HTML5, CSS3, JavaScript (ES6+), TypeScript, and React, which
+            allows me to create responsive, interactive, and high-performance
+            user interfaces focused on usability and clean architecture.
           </p>
 
           <p className="about-me-content-text">
-            Along the way, I have completed intensive Frontend Development
-            courses on platforms like Udemy and GoIT, which have equipped me
-            with hands-on skills in HTML, CSS, JavaScript, and modern frameworks
-            like React. Currently, I am advancing my skills through a Full Stack
-            Developer program at MateAcademy, where I’m learning to build
-            scalable applications from the ground up — combining backend logic
-            with powerful frontend design.
+            Currently, I am completing an intensive Full Stack Developer program
+            at Mate Academy, where I am expanding my expertise in both frontend
+            and backend development. On the frontend side, I actively work with
+            React, TypeScript, Redux Toolkit for scalable state management, and
+            Tailwind CSS for efficient styling. I also use React Hook Form
+            together with Zod for reliable and type-safe form validation, and
+            have experience building accessible and consistent interfaces using
+            ShadCN UI components.
           </p>
 
           <p className="about-me-content-text">
-            I’m someone who takes pride in writing clean, efficient, and
-            maintainable code. Whether I’m working on structuring a complex
-            backend system or designing an intuitive and responsive user
-            interface, I always aim to deliver high-quality work with attention
-            to detail. I believe that great software is not just about how well
-            it works, but also about how well it serves and delights its users.
+            Alongside frontend development, I gain practical experience with
+            backend technologies such as Node.js, Express, PostgreSQL, and
+            MongoDB. This allows me to understand full application architecture,
+            client–server communication, and how to effectively integrate
+            frontend applications with REST APIs and backend services.
           </p>
 
           <p className="about-me-content-text">
-            Beyond coding, I am a lifelong learner. I’m deeply interested in
-            exploring new technologies, development methodologies, and creative
-            approaches to problem-solving. I love being part of a community
-            that’s constantly evolving, and I strive to stay at the cutting edge
-            of the tech landscape — not just to keep up, but to contribute and
-            grow within it.
+            I have experience implementing responsive and mobile-first layouts,
+            creating reusable React components with hooks, managing application
+            state using useState, useEffect, Context API, and Redux Toolkit, and
+            applying strict typing with TypeScript to improve maintainability
+            and code reliability.
           </p>
 
           <p className="about-me-content-text">
-            My ultimate goal is to create digital products that are not only
-            functional and efficient, but also impactful and enjoyable to use. I
-            am excited to continue building, learning, and collaborating with
-            others who share the same drive for excellence and innovation.
+            In addition, I work confidently with Git and understand
+            collaborative development workflows including version control, pull
+            requests, and code reviews. I value clean, readable, and
+            maintainable code and pay strong attention to detail, believing that
+            product quality begins with well-structured interfaces and carefully
+            implemented functionality.
+          </p>
+
+          <p className="about-me-content-text">
+            I am motivated, quick to learn, and always open to new technologies
+            and approaches. My English level is B1+, which allows me to read
+            technical documentation, communicate about development tasks, and
+            work effectively in international teams. My goal is to grow as a
+            developer within a professional team, contribute to meaningful
+            products, and continuously improve my technical skills.
           </p>
         </div>
 

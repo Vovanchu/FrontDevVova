@@ -2,6 +2,7 @@ import englishSchool from "../../images/openGraph/englishSchool.png";
 import myBike from "../../images/openGraph/MYBIKE.png";
 import welltrack from "../../images/openGraph/welltrack.png";
 import TradeBlade from "../../images/openGraph/TradeBlade.png";
+import PhoneCatalog from "../../images/openGraph/PhoneCatalog.png";
 
 const projectsData = [
   {
@@ -53,6 +54,27 @@ const projectsData = [
       "Landing Page",
       "GitHub Pages",
       "Figma",
+    ],
+  },
+  {
+    id: 5,
+    title: "React Phone Catalog – E-commerce Product Catalog",
+    image: PhoneCatalog,
+    description:
+      "A responsive e-commerce catalog for phones, tablets, and accessories. Users can browse products by categories, view detailed product pages with image galleries, add items to favorites, and manage a shopping cart. The project includes product carousels, category navigation, and a clean UI focused on product exploration.",
+    link: "https://vovanchu.github.io/react_phone-catalog/#/",
+    tags: [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Axios",
+      "REST API",
+      "SCSS",
+      "Responsive Design",
+      "Skeleton Loading",
+      "UI Components",
+      "E-commerce",
+      "GitHub Pages",
     ],
   },
 ];

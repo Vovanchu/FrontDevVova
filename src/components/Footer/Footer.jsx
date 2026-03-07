@@ -1,8 +1,6 @@
-import React from "react";
-
 import "./Footer.scss";
 
-import CV from "../../CV_VolodymyrNechai_FullStackDeveloper.pdf";
+import CV from "../../volodymyr_nechai_cv.pdf";
 
 import {
   FaTelegramPlane,

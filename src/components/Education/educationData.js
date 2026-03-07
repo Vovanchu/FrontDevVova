@@ -12,16 +12,6 @@ const educationData = [
   {
     id: 2,
     type: "Certification",
-    title: "Frontend Development Course",
-    institution: "GoIT",
-    period: "Completed in 2024",
-    description:
-      "Practical course focused on HTML, CSS, JavaScript, React, Git, and team workflow with Agile/Scrum methodology.",
-    status: "Completed",
-  },
-  {
-    id: 3,
-    type: "Certification",
     title: "Frontend Bootcamp",
     institution: "Udemy",
     period: "Completed in 2023",
@@ -30,7 +20,7 @@ const educationData = [
     status: "Completed",
   },
   {
-    id: 4,
+    id: 3,
     type: "Certification",
     title: "Full Stack Developer Program",
     institution: "MateAcademy",
